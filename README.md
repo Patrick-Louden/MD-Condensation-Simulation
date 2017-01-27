@@ -1,1 +1,3 @@
 This repository contains a Fortran code for molecular dynamics condensation simulations of flexible SPC/E water. 
+
+The simulation code is contained in sim.f, which reads information in from sim.inp. Contained in sim.inp, is details about the molecules to be found in the sample file bigwater_sim, forcefield parameters, number of molecules, etc. Also, a single line in sim.inp controls if the simulation to be performed will be a condensation simulation where a molecule is introduced in the vapor phase, and allowed to strike the surface. If this line is set to false (F), the simulation will instead be an equilibration of the molecules found in the initial sample.
