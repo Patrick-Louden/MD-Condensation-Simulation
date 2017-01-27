@@ -1,0 +1,1 @@
+This repository contains a Fortran code for molecular dynamics condensation simulations of flexible SPC/E water. 

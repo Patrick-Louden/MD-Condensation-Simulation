@@ -1,0 +1,66 @@
+501		#Total number of molecules
+2		#Number of different molecules
+500		#Number of Water Molecules
+1		#Number of Modified Water Molecules
+3		#Number of atoms per molecule:Water
+H
+1.673533d-27	#Mass of H
+0		#Epsilon of H
+0		#Sigma of H
+0.4238		#Charge of H
+O
+2.658019d-26	#Mass of O
+78.2		#Epsilon of O
+3.166d-10	#Sigma of O
+-0.8476		#Charge of O
+H
+1.673533d-27	#Mass of H
+0		#Epsilon of H
+0		#Sigma of H
+0.4238		#Charge of H
+3		#Number of springs
+1 2 933.1 1d-10	# atom numbers involved, force constant (k), r0
+2 3 933.1 1d-10 #' '
+1 3 228.3 1.6329d-10 #''
+0		#Number of internal lj
+0		#number of torsions
+3		#Number of atoms per molecule:Modified Water
+H
+1.673533d-27	#Mass of H
+0		#Epsilon of H
+0		#Sigma of H
+0.4238		#Charge of H
+O
+2.658019d-26	#Mass of O
+78.2		#Epsilon of O
+3.166d-10	#Sigma of O
+-0.8476		#Charge of O
+H
+1.673533d-27	#Mass of H
+0		#Epsilon of H
+0		#Sigma of H
+0.4238		#Charge of H
+3		#Number of springs
+1 2 933.1 1d-10	#stuff
+2 3 933.1 1d-10 #' '
+1 3 228.3 1.6329d-10 #''
+0		#Number of internal lj
+0		#number of torsions
+bigwater_sim
+F		#Constant temp?
+300.		#Temp
+2.466512001759903D-009	#Box1
+2.466512001759903D-009	#Box2
+100.d-10		#Box3
+75000			#Number of steps
+5D-16			#dt
+T		#Scattering simulation?
+50		#Number of simulations to run
+501		#Scattered molecule #
+10101010	#Seed number
+2.9927256d-26	#Mass of scattered molecule
+9.840555d-48
+2.2140176d-47
+3.19807307d-47 #Moments of inertia
+
+	
